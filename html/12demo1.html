@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">   
+    <style type="text/css">
+        input{
+            display: block;
+        }
+    </style>
+    <title>Form Demo</title>
+</head>
+<body>
+<h1>Please Login</h1>
+<form action="" method="get">
+    <label for="username">Username</label><input type="text" id="username" value="请输入用户名">
+    <label for="password">Password</label><input type="password" id="password" value="请输入密码">
+    <label for="username1">Username</label><input type="text" id="username1" placeholder="Fido">
+    <label for="password1">Password</label><input type="password" id="password1" placeholder="Fido">
+    <label for="login_method">登录方式选择：</label><input id="login_method" list="list">
+    <datalist id="list">
+        <option>手机号</option>
+        <option>电子邮箱</option>
+        <option>扫码登录</option>
+    </datalist>
+    <label>Pick a number between 1 and 10
+        <input type="number" id="num" min="0" max="10" step="1">
+    </label>
+    <label style="display: inline;">How much do you like our product?<br>
+        Not At All <input type="range" id="likes" min="0" max="5" value="4.3" style="display: inline;"> More Than Anything
+    </label>
+    <input type="submit" value="Login">
+    <input type="hidden" id="uid" value="1402">
+</form>
+</body>
+</html>

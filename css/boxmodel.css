@@ -1,0 +1,41 @@
+a{border-width: 1px; border-style: solid; border-color: red; }
+a{text-decoration: none;}
+#content{border: 3px red dashed;
+    padding: 20px;
+    margin: -20px;
+    text-align: center;
+    background-color: white;}
+#content1{border-width:1px 2px 3px 4px; border-top: red dashed; border-left: red solid;
+    border-right: red solid;
+    border-bottom: red dashed;
+    padding: 20px;
+    margin: -10px;
+    text-align: center;
+    background-color: white;
+    display: table;
+    clear: both;}/*上左右下*/
+
+#total{
+    border: blue 4px solid;
+    padding: 10px;
+    margin: 20px;
+    background-color: yellow;}
+#overflow{border: blue 4px solid;
+    padding: 10px;
+    margin: 20px;
+    background-color: white;
+    overflow: auto;
+    float: right;
+    width:50%;}
+#physics:first-letter{
+    font-size:300%;
+    float:left;
+    font-family: 宋体;
+    padding:0 5px;
+}
+abbr:before{
+    content: "[";
+    font-weight: bolder;}
+abbr:after{
+    content: "]";
+    font-weight: bolder;}

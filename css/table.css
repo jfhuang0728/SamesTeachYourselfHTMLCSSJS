@@ -1,0 +1,6 @@
+table{border: 2px solid black; width: 50%;
+    border-collapse: separate;
+    border-spacing: 10px 20px;}
+th,td{border: 1px dashed black;
+    padding: 5px;
+    text-align: center;}

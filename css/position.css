@@ -1,0 +1,9 @@
+#offset{
+    border: 1px dashed black;
+    padding: 10px;
+    margin: 20px;
+    width: 33%;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    background-color: red;}

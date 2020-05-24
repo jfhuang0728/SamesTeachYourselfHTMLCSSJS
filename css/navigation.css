@@ -1,0 +1,84 @@
+#navigation{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    width: 90%;
+}
+#navigation ul{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    background-color: #eeeeee;
+    overflow: visible;
+}
+#navigation ul>li{
+    display: block;
+    float: left;
+    height: auto;
+    width: 120px;
+}
+#navigation li > a{
+    display: block;
+    padding: 0 0 0 10px;
+    height: 100%;
+    width: 109px;
+    border-right: 1px black solid;
+    line-height: 30px;
+    font-family: sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    background-color: #eeeeee;
+    color: #5d5636;
+}
+#navigation ul ul{
+    margin-top: 2px;
+    display: none;
+    position: static;
+    height: auto;
+    width: 160px;
+    border: 1px #666666 solid;
+    background-color: #dddddd;
+}
+#navigation ul ul li{
+    position: relative;
+    float: none;
+    display: block;
+    height: 28px;
+    width: 100%;
+    border: none;
+}
+#navigation ul ul li > a{
+    height: 100%;
+    width: 96%;
+    padding: 0 0 0 4%;
+    line-height: 28px;
+    background-color: transparent;
+    border:none;
+    color: #000000;
+    font-size: 12px;
+    font-style: normal;
+}
+#navigation li:hover > ul{
+    display: block;
+}
+#navigation li:hover > a{
+    color: #220000;
+    background-color: #eeeabe;
+}
+#navigation ul li ul li ul{
+    display: none;
+    position: relative;
+    left: 100%;
+    background-color: #eeeeee;
+}
+#navigation ul li ul li:hover > ul{
+    display: block;
+    position: relative;
+    left: 100%;
+    top: -100%;
+    background-color: #eeeeee;
+}

@@ -1,0 +1,12 @@
+#pic1{float: left; border: 3px red solid;}
+#dis{
+    clear: both;}
+#bg_pic{
+    background-image: url(../resources/0f9d81865d03c907614d588c6cf40779.jpeg);
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    background-color: yellow;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    }

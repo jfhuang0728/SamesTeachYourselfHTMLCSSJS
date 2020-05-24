@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <style>
+        form div{
+            display: block;
+            margin-left: 165px;
+            margin-bottom: 1em;
+        }
+         .field{
+            display: block;
+            float: left;
+            margin-right: 15px;
+            text-align: right;
+        }
+        .require{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <p>Please fill out the form below to register for out site.Fields with bold labels are required.</p>
+    <form id="register_form">
+        <div class="require">
+            <label for="name" class="field">Name</label><input id="name" type="text">
+        </div>
+        <div class="require"><label class="field">Gender</label>
+            <label><input type="radio" value="male" name="gender">male</label>
+            <label><input type="radio" value="female" name="gender">female</label>
+        </div>
+        <div class="require">
+            <label class="field">Operating System</label>
+            <select>
+                <option>Windows</option>
+                <option>Linux</option>
+                <option>MacOS</option>
+            </select>
+        </div>
+        <div>
+            <lable class="field">Toys</lable>
+            <label><input type="checkbox">Digtal Camera</label>
+            <label><input type="checkbox">MP3 Player</label>
+            <label><input type="checkbox">Wireless LAN</label>
+        </div>
+        <div>
+            <label class="field">Portrait</label><input type="file">
+        </div>
+        <div>
+            <label class="field">Mini Biography</label><textarea></textarea>
+        </div>
+        <div><input type="submit" value="register"></div>
+    </form>
+</body>
+</html>

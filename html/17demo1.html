@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A simple JS example</title>
+</head>
+<body>
+<p>Printed before JS is run</p>
+<p>
+    <script>
+        document.write("Print By JS.....");
+
+    </script>
+</p>
+<p>Printed after JS is run</p>
+<script>
+    function writeParagraph(tag, myString) {
+        document.write("<" + tag + ">" + myString + "</" + tag + ">");
+    }
+    writeParagraph("p", "firstFunction");
+    writeParagraph("h1", "firstFunction");
+    var list = new Array(10);
+    var car = {brand:"Audi", age:3, address:"China"};
+    car.move = function (speed) {
+        window.alert("这辆"+car.brand+"正在以时速"+speed+"行驶");
+    }
+    car.move("120km/h");
+    var myLink;
+    myLink.onclick = function(event) {
+        alert('be care for');
+    }
+    var myButton;
+    myButton.addEventListener('onfocus', function () {
+        alert('be care for')
+    }, false)
+</script>
+<a href="https://www.baidu.com" onclick="myButton">未成年慎点</a>
+</body>
+</html>
